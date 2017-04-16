@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5076B368C883E32A2381E339 /* Pods_qfix2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717FDF9E08C8F1CFC84D1FBF /* Pods_qfix2.framework */; };
+		6508C4411EA15C2B00BF9F91 /* ViewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508C4401EA15C2B00BF9F91 /* ViewProfileViewController.swift */; };
+		6508C4431EA1851000BF9F91 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6508C4421EA1851000BF9F91 /* Employee.swift */; };
+		6519279C1EA27DDA00DB70AF /* vieWProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519279B1EA27DDA00DB70AF /* vieWProfileTableViewCell.swift */; };
 		65665E791E999C0F003888A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65665E781E999C0F003888A6 /* AppDelegate.swift */; };
 		65665E7B1E999C0F003888A6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65665E7A1E999C0F003888A6 /* FirstViewController.swift */; };
 		65665E7D1E999C0F003888A6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65665E7C1E999C0F003888A6 /* SecondViewController.swift */; };
-		65665E801E999C0F003888A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65665E7E1E999C0F003888A6 /* Main.storyboard */; };
+		65665E801E999C0F003888A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65665E7E1E999C0F003888A6 /* Main.storyboard */; settings = {ASSET_TAGS = (h, ); }; };
 		65665E821E999C0F003888A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65665E811E999C0F003888A6 /* Assets.xcassets */; };
 		65665E851E999C0F003888A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65665E831E999C0F003888A6 /* LaunchScreen.storyboard */; };
+		65665E8F1E99A89A003888A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65665E8E1E99A89A003888A6 /* GoogleService-Info.plist */; };
+		65665E931E9ACB43003888A6 /* CatagoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65665E921E9ACB43003888A6 /* CatagoryViewCell.swift */; };
+		65665E951E9ADFD0003888A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65665E941E9ADFD0003888A6 /* Constants.swift */; };
+		65665E981E9AE333003888A6 /* Catagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65665E971E9AE333003888A6 /* Catagory.swift */; };
+		656EFC241EA02EDD00DBB021 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656EFC231EA02EDD00DBB021 /* CoreLocation.framework */; };
+		6574F3031E9C6394004EA16E /* CatagoryEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6574F3021E9C6394004EA16E /* CatagoryEmployeeViewController.swift */; };
+		6574F3161E9ECEE1004EA16E /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 6574F30D1E9ECEE1004EA16E /* GeoFire.m */; };
+		6574F3171E9ECEE1004EA16E /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6574F30F1E9ECEE1004EA16E /* GFBase32Utils.m */; };
+		6574F3181E9ECEE1004EA16E /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6574F3111E9ECEE1004EA16E /* GFGeoHash.m */; };
+		6574F3191E9ECEE1004EA16E /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6574F3131E9ECEE1004EA16E /* GFGeoHashQuery.m */; };
+		6574F31A1E9ECEE1004EA16E /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6574F3151E9ECEE1004EA16E /* GFQuery.m */; };
+		65E7436F1E9EDC25004A7F42 /* CatagoryEmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7436E1E9EDC25004A7F42 /* CatagoryEmployeeTableViewCell.swift */; };
+		65E743711E9EED6A004A7F42 /* CatagoryEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E743701E9EED6A004A7F42 /* CatagoryEmployee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EAD6D691375F8A2A143CE21 /* Pods-qfix2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qfix2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qfix2/Pods-qfix2.debug.xcconfig"; sourceTree = "<group>"; };
+		6508C4401EA15C2B00BF9F91 /* ViewProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProfileViewController.swift; sourceTree = "<group>"; };
+		6508C4421EA1851000BF9F91 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		6519279B1EA27DDA00DB70AF /* vieWProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vieWProfileTableViewCell.swift; sourceTree = "<group>"; };
 		65665E751E999C0F003888A6 /* qfix2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qfix2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65665E781E999C0F003888A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65665E7A1E999C0F003888A6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +45,32 @@
 		65665E811E999C0F003888A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65665E841E999C0F003888A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65665E861E999C0F003888A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65665E8E1E99A89A003888A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65665E921E9ACB43003888A6 /* CatagoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatagoryViewCell.swift; sourceTree = "<group>"; };
+		65665E941E9ADFD0003888A6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		65665E971E9AE333003888A6 /* Catagory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Catagory.swift; sourceTree = "<group>"; };
+		656EFC231EA02EDD00DBB021 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6574F3021E9C6394004EA16E /* CatagoryEmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatagoryEmployeeViewController.swift; sourceTree = "<group>"; };
+		6574F3061E9ECEE1004EA16E /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		6574F3071E9ECEE1004EA16E /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		6574F3081E9ECEE1004EA16E /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		6574F3091E9ECEE1004EA16E /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		6574F30A1E9ECEE1004EA16E /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		6574F30C1E9ECEE1004EA16E /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		6574F30D1E9ECEE1004EA16E /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		6574F30E1E9ECEE1004EA16E /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		6574F30F1E9ECEE1004EA16E /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		6574F3101E9ECEE1004EA16E /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		6574F3111E9ECEE1004EA16E /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		6574F3121E9ECEE1004EA16E /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		6574F3131E9ECEE1004EA16E /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		6574F3141E9ECEE1004EA16E /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		6574F3151E9ECEE1004EA16E /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		65E7436D1E9ED5B1004A7F42 /* qfix2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "qfix2-Bridging-Header.h"; sourceTree = "<group>"; };
+		65E7436E1E9EDC25004A7F42 /* CatagoryEmployeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatagoryEmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		65E743701E9EED6A004A7F42 /* CatagoryEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatagoryEmployee.swift; sourceTree = "<group>"; };
+		717FDF9E08C8F1CFC84D1FBF /* Pods_qfix2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qfix2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF29DD4BC509BCD05228D3D /* Pods-qfix2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qfix2.release.xcconfig"; path = "Pods/Target Support Files/Pods-qfix2/Pods-qfix2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +78,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656EFC241EA02EDD00DBB021 /* CoreLocation.framework in Frameworks */,
+				5076B368C883E32A2381E339 /* Pods_qfix2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		651927981EA27CA100DB70AF /* userFlow */ = {
+			isa = PBXGroup;
+			children = (
+				65665E7A1E999C0F003888A6 /* FirstViewController.swift */,
+				65665E921E9ACB43003888A6 /* CatagoryViewCell.swift */,
+				6574F3021E9C6394004EA16E /* CatagoryEmployeeViewController.swift */,
+				65E7436E1E9EDC25004A7F42 /* CatagoryEmployeeTableViewCell.swift */,
+				6508C4401EA15C2B00BF9F91 /* ViewProfileViewController.swift */,
+				6519279B1EA27DDA00DB70AF /* vieWProfileTableViewCell.swift */,
+			);
+			name = userFlow;
+			sourceTree = "<group>";
+		};
+		651927991EA27D7700DB70AF /* EmployeeFlow */ = {
+			isa = PBXGroup;
+			children = (
+				65665E7C1E999C0F003888A6 /* SecondViewController.swift */,
+			);
+			name = EmployeeFlow;
+			sourceTree = "<group>";
+		};
+		6519279A1EA27D9200DB70AF /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				65665E941E9ADFD0003888A6 /* Constants.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
 		65665E6C1E999C0F003888A6 = {
 			isa = PBXGroup;
 			children = (
 				65665E771E999C0F003888A6 /* qfix2 */,
 				65665E761E999C0F003888A6 /* Products */,
+				AB0F07C9AA9ADCAF60A54A5F /* Pods */,
+				6B3B68847BC123C171551E63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +136,86 @@
 		65665E771E999C0F003888A6 /* qfix2 */ = {
 			isa = PBXGroup;
 			children = (
+				6519279A1EA27D9200DB70AF /* utils */,
+				651927991EA27D7700DB70AF /* EmployeeFlow */,
+				651927981EA27CA100DB70AF /* userFlow */,
+				6574F3041E9ECEE1004EA16E /* GeoFire */,
+				65665E961E9AE30F003888A6 /* models */,
+				65665E8E1E99A89A003888A6 /* GoogleService-Info.plist */,
 				65665E781E999C0F003888A6 /* AppDelegate.swift */,
-				65665E7A1E999C0F003888A6 /* FirstViewController.swift */,
-				65665E7C1E999C0F003888A6 /* SecondViewController.swift */,
 				65665E7E1E999C0F003888A6 /* Main.storyboard */,
 				65665E811E999C0F003888A6 /* Assets.xcassets */,
 				65665E831E999C0F003888A6 /* LaunchScreen.storyboard */,
 				65665E861E999C0F003888A6 /* Info.plist */,
+				65E7436D1E9ED5B1004A7F42 /* qfix2-Bridging-Header.h */,
 			);
 			path = qfix2;
+			sourceTree = "<group>";
+		};
+		65665E961E9AE30F003888A6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				65665E971E9AE333003888A6 /* Catagory.swift */,
+				65E743701E9EED6A004A7F42 /* CatagoryEmployee.swift */,
+				6508C4421EA1851000BF9F91 /* Employee.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		6574F3041E9ECEE1004EA16E /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				6574F3051E9ECEE1004EA16E /* API */,
+				6574F30A1E9ECEE1004EA16E /* GeoFire-Prefix.pch */,
+				6574F30B1E9ECEE1004EA16E /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		6574F3051E9ECEE1004EA16E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6574F3061E9ECEE1004EA16E /* GeoFire.h */,
+				6574F3071E9ECEE1004EA16E /* GFCircleQuery.h */,
+				6574F3081E9ECEE1004EA16E /* GFQuery.h */,
+				6574F3091E9ECEE1004EA16E /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6574F30B1E9ECEE1004EA16E /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				6574F30C1E9ECEE1004EA16E /* GeoFire+Private.h */,
+				6574F30D1E9ECEE1004EA16E /* GeoFire.m */,
+				6574F30E1E9ECEE1004EA16E /* GFBase32Utils.h */,
+				6574F30F1E9ECEE1004EA16E /* GFBase32Utils.m */,
+				6574F3101E9ECEE1004EA16E /* GFGeoHash.h */,
+				6574F3111E9ECEE1004EA16E /* GFGeoHash.m */,
+				6574F3121E9ECEE1004EA16E /* GFGeoHashQuery.h */,
+				6574F3131E9ECEE1004EA16E /* GFGeoHashQuery.m */,
+				6574F3141E9ECEE1004EA16E /* GFQuery+Private.h */,
+				6574F3151E9ECEE1004EA16E /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		6B3B68847BC123C171551E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				656EFC231EA02EDD00DBB021 /* CoreLocation.framework */,
+				717FDF9E08C8F1CFC84D1FBF /* Pods_qfix2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB0F07C9AA9ADCAF60A54A5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EAD6D691375F8A2A143CE21 /* Pods-qfix2.debug.xcconfig */,
+				8EF29DD4BC509BCD05228D3D /* Pods-qfix2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65665E891E999C0F003888A6 /* Build configuration list for PBXNativeTarget "qfix2" */;
 			buildPhases = (
+				DBE33BE2358C73C624EA2F95 /* [CP] Check Pods Manifest.lock */,
 				65665E711E999C0F003888A6 /* Sources */,
 				65665E721E999C0F003888A6 /* Frameworks */,
 				65665E731E999C0F003888A6 /* Resources */,
+				0B87738DEBCF0FB86F36A22E /* [CP] Embed Pods Frameworks */,
+				F847F92C235D3933930CE9C2 /* [CP] Copy Pods Resources */,
+				65318ABB1EA2D63D00120F70 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -93,12 +248,16 @@
 		65665E6D1E999C0F003888A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					h,
+				);
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = qfix;
 				TargetAttributes = {
 					65665E741E999C0F003888A6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GSG2X8B4XS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65665E851E999C0F003888A6 /* LaunchScreen.storyboard in Resources */,
+				65665E8F1E99A89A003888A6 /* GoogleService-Info.plist in Resources */,
 				65665E821E999C0F003888A6 /* Assets.xcassets in Resources */,
 				65665E801E999C0F003888A6 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +294,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B87738DEBCF0FB86F36A22E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qfix2/Pods-qfix2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65318ABB1EA2D63D00120F70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" ed2648ca3525157ca9d3c4c1526de1f467769e6d 48df61d5139abaae774bea795e0327d7de22bd9a6251878be58851e7dd02f51c";
+		};
+		DBE33BE2358C73C624EA2F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F847F92C235D3933930CE9C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qfix2/Pods-qfix2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65665E711E999C0F003888A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65665E951E9ADFD0003888A6 /* Constants.swift in Sources */,
 				65665E7D1E999C0F003888A6 /* SecondViewController.swift in Sources */,
+				6574F3181E9ECEE1004EA16E /* GFGeoHash.m in Sources */,
+				6574F31A1E9ECEE1004EA16E /* GFQuery.m in Sources */,
+				65E7436F1E9EDC25004A7F42 /* CatagoryEmployeeTableViewCell.swift in Sources */,
+				6574F3031E9C6394004EA16E /* CatagoryEmployeeViewController.swift in Sources */,
 				65665E791E999C0F003888A6 /* AppDelegate.swift in Sources */,
+				65E743711E9EED6A004A7F42 /* CatagoryEmployee.swift in Sources */,
+				65665E981E9AE333003888A6 /* Catagory.swift in Sources */,
+				6519279C1EA27DDA00DB70AF /* vieWProfileTableViewCell.swift in Sources */,
+				6508C4431EA1851000BF9F91 /* Employee.swift in Sources */,
+				6574F3161E9ECEE1004EA16E /* GeoFire.m in Sources */,
+				65665E931E9ACB43003888A6 /* CatagoryViewCell.swift in Sources */,
 				65665E7B1E999C0F003888A6 /* FirstViewController.swift in Sources */,
+				6574F3191E9ECEE1004EA16E /* GFGeoHashQuery.m in Sources */,
+				6508C4411EA15C2B00BF9F91 /* ViewProfileViewController.swift in Sources */,
+				6574F3171E9ECEE1004EA16E /* GFBase32Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,24 +497,35 @@
 		};
 		65665E8A1E999C0F003888A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EAD6D691375F8A2A143CE21 /* Pods-qfix2.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = GSG2X8B4XS;
 				INFOPLIST_FILE = qfix2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qfix.qfix2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Users/mahmoudelsamak/Desktop/qfix2/qfix2/qfix2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		65665E8B1E999C0F003888A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF29DD4BC509BCD05228D3D /* Pods-qfix2.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = GSG2X8B4XS;
 				INFOPLIST_FILE = qfix2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qfix.qfix2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DISABLE_SAFETY_CHECKS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -303,6 +549,7 @@
 				65665E8B1E999C0F003888A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
